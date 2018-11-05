@@ -58,6 +58,28 @@ if (message.content === '!spam') {
         }
       }
 });
+
+bot1.on('message', message => {
+  
+  if (message.content === 'trans7') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+bot1.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say7") {
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+
+
+
 bot1.login("NTA4MzQxNjAxNTg5MDAyMjUw.DsBugw.DPNsWfM1qssIlkoaaMwPyClgtJ8"
 )
 
@@ -99,6 +121,27 @@ if (message.content === '!spam') {
       }
 });
 
+bot2.on('message', message => {
+  
+  if (message.content === 'trans8') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+bot2.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say8") {
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+
+
+
 bot2.login("NTA4NjA5NzQyMjY5MDU0OTg3.DsCwKg.cFOp2XL_ffPddmrNmJi9ZhARGXI"
 )
 
@@ -134,6 +177,26 @@ if (message.content === '!spam') {
 
         }
       }
+});
+
+
+bot3.on('message', message => {
+  
+  if (message.content === 'trans9') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+bot3.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say9") {
+message.channel.send(args.join("  "))
+    message.delete();
+  }
 });
 
 
